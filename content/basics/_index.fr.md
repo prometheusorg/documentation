@@ -9,5 +9,5 @@ pre = "<b>1. </b>"
 
 # Démarrage
 
-Commençons par le commencement.
+Commençons par le commencement...
 
