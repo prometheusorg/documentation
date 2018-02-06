@@ -1,0 +1,33 @@
+baseURL = "https://localhost"
+title = "LifeLine Health Apps"
+theme = "learn"
+
+languageCode = "en-us"
+
+DefaultContentLanguage = "en"
+
+DefaultContentLanguageInSubdir = "true"
+
+disableInlineCopyToClipBoard = true
+
+[params]
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "red"
+
+#For search functionnality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[languages]
+[languages.en]
+title = "LifeLine Health Apps"
+weight = 1
+languageName = "English"
+disableInlineCopyToClipBoard = true
+
+[languages.fr]
+title = "Apps santé Ligne de Vie"
+weight = 2
+languageName = "Français"
+disableInlineCopyToClipBoard = true
